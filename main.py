@@ -1,1 +1,1 @@
-print('ok')
+# Import ok
