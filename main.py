@@ -22,9 +22,9 @@ def start_server():
     # Execute the server start
     try:
         os.system("cls")
-        print('Server opened')
+        print(f'Server opened the link : http://{host}:{port}/')
         resp.serve_forever()
     except KeyboardInterrupt:
         print('Server closed')
-
+        
 start_server()
