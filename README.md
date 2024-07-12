@@ -1,7 +1,7 @@
 # webhostpy
 
 créer ton propre site local en un rien de temps !
-# comment créer ton site ?
+# comment créer ton site !
 
 pour héberger ton site il faut lancer running.py puis entrer le port et l'hôte  
 
