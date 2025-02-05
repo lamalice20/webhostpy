@@ -112,5 +112,5 @@ if args.update:
     zip_url = get_latest_release()
     if zip_url and download_and_extract(zip_url):
         replace_old_files()
-        print("Restarting the application...")
-        os.execv(sys.executable, [sys.executable] + sys.argv)  # Restart script
+        print("Update complete. Exiting application.")
+        sys.exit(0)  # Quitte proprement après la mise à jour
