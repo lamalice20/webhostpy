@@ -3,7 +3,7 @@
 créer ton propre site local en un rien de temps !
 # comment créer ton site !
 
-pour héberger ton site il faut lancer running.py puis entrer le port et l'hôte  
+pour héberger ton site, il faut lancer running.py puis entrer le port et l'hôte  
 
 exemple :
   
@@ -17,4 +17,9 @@ pour installer les dépendences de cette hébergeur python voici la commande a �
 
 ```bash
 pip install -r requirements.txt
+```
+Pour télécharger dernière version de l'hébergeur il te faut entrer cette commande:
+
+```bash
+$ python running.py --update
 ```
