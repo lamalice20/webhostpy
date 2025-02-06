@@ -12,8 +12,8 @@ import shutil
 # Configuration
 GITHUB_OWNER = "lamalice20"
 GITHUB_REPO = "webhostpy"
-DOWNLOAD_PATH = "C:\\webhoster\\UpdateFolder\\.update.zip"
-EXTRACT_PATH = "C:\\webhoster\\UpdateFolder\\update_temp"
+DOWNLOAD_PATH = "C:\\webhostpy\\UpdateFolder\\.update.zip"
+EXTRACT_PATH = "C:\\webhostpy\\UpdateFolder\\update_temp"
 
 
 def get_latest_release():
