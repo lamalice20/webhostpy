@@ -73,11 +73,13 @@ def replace_old_files():
 
 # create function to start server 
 def start_server():
+    # Ask for the server host
+    host = input('Enter the server host: ')
+    
     # Ask for the server port
     port = int(input('Enter the server port: '))
 
-    # Ask for the server host
-    host = input('Enter the server host: ')
+    path_of_the_site = str(input("Enter the path of the site: "))
 
     # Define the server address
     address = (host, port)
